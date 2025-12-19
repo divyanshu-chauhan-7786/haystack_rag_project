@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>RAG Question Answering System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Retrieval Augmented Generation</h1>
+        <p class="subtitle">
+            Ask questions from your documents using AI
+        </p>
+
+        <label for="question">Enter your question</label>
+        <textarea 
+            id="question"
+            placeholder="Example: What is a Transformer model?"
+            onkeydown="handleEnter(event)"
+        ></textarea>
+
+        <button id="askBtn" onclick="askQuestion()">Get Answer</button>
+
+        <!-- Loading -->
+        <div id="loading" class="loading" style="display:none;">
+            Thinking, please wait...
+        </div>
+
+        <!-- Answer -->
+        <div id="answerBox" class="answer-box" style="display: none;">
+            <div class="answer-title">Answer</div>
+            <div id="answerText" class="answer-text"></div>
+        </div>
+
+        <!-- Error -->
+        <div id="errorBox" class="error-box" style="display:none;"></div>
+
+        <div class="footer">
+            Powered by RAG • Pinecone • Gemini
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="/static/index.js"></script>
+</body>
+</html>
