@@ -23,23 +23,23 @@ This project demonstrates a **production-ready RAG pipeline** with a clean front
 ```text
 End_to_end_rag/
 │
-├── app.py                  # FastAPI application
-├── README.md               # Project documentation
-├── requirements.txt        # Python dependencies
-├── .gitignore              # Git ignore rules
+├── app.py                  
+├── README.md               
+├── requirements.txt        
+├── .gitignore              
 │
 ├── QASystem/
 │   ├── __init__.py
-│   └── retrievalgeneration.py   # RAG pipeline logic
+│   └── retrievalgeneration.py   
 │
 ├── templates/
-│   └── index.html          # Frontend HTML
+│   └── index.html         
 │
 ├── static/
-│   ├── index.css           # Frontend styling
-│   └── index.js            # Frontend logic
+│   ├── index.css           
+│   └── index.js          
 │
-└── data/                   # (Ignored) Documents / PDFs
+└── data/                  
 ```
 ---
 
@@ -140,7 +140,9 @@ Access the application in your browser:
 - **Cloud deployment** on Render, Railway, or AWS.
 
 ---
+<img width="923" height="487" alt="image" src="https://github.com/user-attachments/assets/ad82ad0c-7272-404e-aa16-bd3867e3b84a" />
 
+---
 **Developer**  
 **Divyanshu Chauhan**  
 **AI / ML Engineer**  
@@ -150,4 +152,5 @@ Passionate about **Natural Language Processing**, **RAG systems**, and **real-wo
 
 **Support & Contribution:**  
 If you find this project useful, please **star the repository**, **fork it for experimentation**, or **open issues** for suggestions and improvements.
+
 
