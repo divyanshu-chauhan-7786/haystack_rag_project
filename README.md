@@ -80,7 +80,7 @@ This project implements a complete **Retrieval Augmented Generation (RAG)** pipe
 **Installation & Setup:**  
 
 1. **Clone the repository**  
-`git clone https://github.com/<your-username>/<repo-name>.git`  
+`git clone https://github.com/divyanshu-chauhan-7786/haystack_rag_project`  
 `cd End_to_end_rag`
 
 2. **Create a virtual environment**  
@@ -150,3 +150,4 @@ Passionate about **Natural Language Processing**, **RAG systems**, and **real-wo
 
 **Support & Contribution:**  
 If you find this project useful, please **star the repository**, **fork it for experimentation**, or **open issues** for suggestions and improvements.
+
